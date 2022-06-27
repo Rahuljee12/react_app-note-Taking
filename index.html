@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         Note-App
+        </title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <button id="add-note" ><label class="add-label">+</label>Add note</button>
+        </header>
+        <div class="content-popup">
+        <div class="write-note">
+            <input id="note-head" type="text" placeholder="Enter Header......">
+            <textarea name="" id="txt-area" cols="30" rows="10" placeholder="Enter note...."></textarea><br>
+            <button id="save">Save</button>
+        </div>
+        </div>
+        <div class="edit-popup">
+            <div class="edit-note">
+                <input id="edit-head" type="text" name="settxt"></input>
+                <textarea name="" id="edit-txt" cols="30" rows="10"></textarea><br>
+                <button id="confirm-edit">Save</button>
+            </div>
+            </div>
+        <br>
+        <div class="notes">
+           
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
